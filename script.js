@@ -40,7 +40,7 @@ function checkTime(i) {
 $("#search").googleSuggest({secure: true});
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://api.coinmarketcap.com/v1/ticker/quant/');
+request.open('GET', 'https://api.cryptonator.com/api/ticker/btc-usd');
 request.responseType = 'json';
 request.onload = function(){
     var data = request.response;

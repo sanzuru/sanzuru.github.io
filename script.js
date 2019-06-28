@@ -40,13 +40,12 @@ function checkTime(i) {
 $("#search").googleSuggest({secure: true});
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://api.cryptonator.com/api/ticker/btc-usd');
+request.open('GET', 'https://api.cryptonator.com/api/ticker/link-usd');
 request.responseType = 'json';
 request.onload = function(){
     var data = request.response;
-    console.log(data);
-    console.log(data[0]);
-    document.getElementById('ticker').innerHTML = data[0].price;
+    console.log(data.ticker.price);
+    document.getElementById('ticker').innerHTML = "Price: " + data.ticker.price;
 }
 
 request.send();

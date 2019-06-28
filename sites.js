@@ -2,6 +2,7 @@ var links = {
     "1": [
         {"category": "News"},
 
+        {"title": "WSJ", "url": "https://www.wsj.com/?mod=rsswn"},
         {"title": "Literature", "url": "http://4chan.org/lit"},
         {"title": "Technology", "url": "http://4chan.org/g"},
         {"title": "History", "url": "http://4chan.org/his"},
@@ -15,6 +16,8 @@ var links = {
         "url": "https://en.wikipedia.org/wiki/Main_Page"},
         {"title": "Gmail",
         "url": "https://mail.google.com/mail/u/0/#inbox"},
+        {"title": "OSRS Wiki",
+        "url": "https://oldschool.runescape.wiki/"},
         {"title": "TPB",
         "url": "https://thepiratebay.org"}
     ],
@@ -29,7 +32,7 @@ var links = {
 
         {"title": "YouTube",
         "url": "http://www.youtube.com"},
-        {"title": "Netflix",
-        "url": "http://www.netflix.com"}
+        {"title": "Twitch",
+        "url": "http://www.twitch.tv"}
     ]
 }

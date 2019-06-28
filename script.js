@@ -44,6 +44,7 @@ request.open('GET', 'https://api.cryptonator.com/api/ticker/btc-usd');
 request.responseType = 'json';
 request.onload = function(){
     var data = request.response;
+    console.log(data);
     console.log(data[0]);
     document.getElementById('ticker').innerHTML = data[0].price;
 }

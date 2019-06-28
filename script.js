@@ -45,6 +45,7 @@ request.responseType = 'json';
 request.onload = function(){
     var data = request.response;
     console.log(data[0]);
+    document.getElementById('ticker').innerHTML = data[0].price;
 }
 
 request.send();
